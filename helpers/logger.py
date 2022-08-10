@@ -36,3 +36,8 @@ def get_basic_logger(logger_level) -> logging:
     logger.setLevel(level)
 
     return logger
+
+STOCKY_INFO_LOGGER = get_basic_logger('info')
+STOCKY_ERROR_LOGGER = get_basic_logger('error')
+STOCKY_WARNING_LOGGER = get_basic_logger('warning')
+STOCKY_DEBUG_LOGGER = get_basic_logger('debug')

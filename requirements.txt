@@ -1,0 +1,7 @@
+
+#[P]
+    pandas ~= 1.4.3
+#[S]
+    sqlalchemy ~= 1.4.39
+#[Y]
+    yfinance ~= 0.1.74
